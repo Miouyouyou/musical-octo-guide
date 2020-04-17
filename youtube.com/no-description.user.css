@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name           YouTube - No Description
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+    #description { display: none !important; }
+}
+

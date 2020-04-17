@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           YouTube - No comments
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+    /* New UI */
+    ytd-comments { display: none !important; }
+
+    /* Old UI */
+    #watch-discussion { display: none !important; }
+}
+

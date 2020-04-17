@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name           YouTube - No sentiments
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+    /* New UI */
+    div#menu ytd-toggle-button-renderer, ytd-sentiment-bar-renderer  { display: none !important; }
+
+    /* Old UI */
+    #watch8-sentiment-actions .video-extras-sparkbars,
+    #watch8-sentiment-actions .like-button-renderer
+    {
+        display: none !important;
+    }
+}

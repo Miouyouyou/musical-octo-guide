@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           YouTube - Next only
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+    #items > .ytd-watch-next-secondary-results-renderer:first-child { display: initial !important; }
+    #items > .ytd-watch-next-secondary-results-renderer { display: none; }
+
+}
+
